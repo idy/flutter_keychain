@@ -54,9 +54,6 @@ static NSString *const InvalidParameters = @"Invalid parameter's type";
     @catch (NSException *exception) {
         NSLog(@"%@", exception.reason);
     }
-    @catch (NSObject *object){
-        NSLog(@"%@", object);
-    }
 }
 
 
